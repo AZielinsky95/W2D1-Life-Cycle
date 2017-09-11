@@ -60,12 +60,9 @@
 			children = (
 				AA4FB5181F66DACC0087C515 /* AppDelegate.h */,
 				AA4FB5191F66DACC0087C515 /* AppDelegate.m */,
-				AA4FB51B1F66DACC0087C515 /* ViewController.h */,
-				AA4FB51C1F66DACC0087C515 /* ViewController.m */,
-				AA4FB51E1F66DACC0087C515 /* Main.storyboard */,
-				AA4FB5211F66DACC0087C515 /* Assets.xcassets */,
-				AA4FB5231F66DACC0087C515 /* LaunchScreen.storyboard */,
-				AA4FB5261F66DACC0087C515 /* Info.plist */,
+				AA4FB52E1F66DC2E0087C515 /* Controller */,
+				AA4FB52D1F66DC280087C515 /* View */,
+				AA4FB52C1F66DC200087C515 /* Model */,
 				AA4FB5151F66DACC0087C515 /* Supporting Files */,
 			);
 			path = RealApplication;
@@ -74,9 +71,36 @@
 		AA4FB5151F66DACC0087C515 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA4FB5211F66DACC0087C515 /* Assets.xcassets */,
+				AA4FB5231F66DACC0087C515 /* LaunchScreen.storyboard */,
+				AA4FB5261F66DACC0087C515 /* Info.plist */,
 				AA4FB5161F66DACC0087C515 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA4FB52C1F66DC200087C515 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AA4FB52D1F66DC280087C515 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA4FB51E1F66DACC0087C515 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AA4FB52E1F66DC2E0087C515 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA4FB51B1F66DACC0087C515 /* ViewController.h */,
+				AA4FB51C1F66DACC0087C515 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
