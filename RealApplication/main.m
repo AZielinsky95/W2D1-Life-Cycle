@@ -11,6 +11,7 @@
 
 int main(int argc, char * argv[]) {
   @autoreleasepool {
+    NSLog(@"%d: %s", __LINE__, __PRETTY_FUNCTION__);
       return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
   }
 }
