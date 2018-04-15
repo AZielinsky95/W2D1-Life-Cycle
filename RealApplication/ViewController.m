@@ -9,8 +9,6 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *button;
-
 @end
 
 @implementation ViewController
@@ -74,12 +72,6 @@
 - (void)viewDidLayoutSubviews {
   NSLog(@"%d: %s", __LINE__, __PRETTY_FUNCTION__);
 }
-
-- (IBAction)buttonTapped:(UIButton *)sender {
-
-}
-
-
 
 
 @end
